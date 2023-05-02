@@ -5,7 +5,7 @@ Aplicação web com Ruby on Rails que conecta o público em geral com o estoque 
 
 DIAGRAMA VISUAL, POR CLASSES, DE TODAS AS TELAS DO APP (LINK ABRE EM OUTRA ABA):
 
-[Diagrama de telas por classe](https://l1nk.dev/FUYJV){:target="_blank" rel="noopener noreferrer"}
+[Diagrama de telas por classe](https://l1nk.dev/FUYJV){:target="_blank"}
 
 CLASSES:
 
