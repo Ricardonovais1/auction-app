@@ -1,8 +1,15 @@
 # README
+DESCRIÇÃO DO PROJETO:
 
-Aplicação web com Ruby on Rails que conecta o público em geral com o estoque de itens abandonados em um galpão.
+    Aplicação web com Ruby on Rails que conecta o público em geral com o estoque de itens abandonados em um galpão. Usuários admin podem configurar lotes e aprovar, sendo que o usuário que cria o lote não pode aprovar o mesmo, mas sim outro admin. Usuários regulares (visitor), podem fazer lances. 
+
+DIAGRAMA VISUAL, POR CLASSES, DE TODAS AS TELAS DO APP (LINK ABRE EM OUTRA ABA):
+
+    [Diagrama de telas por classe](https://l1nk.dev/FUYJV){target="_blank"}
 
 CLASSES:
+
+    Usuários (roles: admin / visitor):
 
 admin:
 
@@ -23,9 +30,9 @@ admin:
             
             TELA DE DETALHES - PERFIL (SHOW)
             TELA DE CADASTRO DE ADMIN (NEW, CREATE)
-            TELA DE EDIÇÃO DE ADMIN (EDIT, CREATE)
+            TELA DE EDIÇÃO DE ADMIN (EDIT, UPDATE)
 
-user:
+visitor:
 
     atributos:
 
@@ -42,7 +49,7 @@ user:
 
             TELA DE DETALHES - PERFIL (SHOW)
             TELA DE CADASTRO DE USER (NEW, CREATE)
-            TELA DE EDIÇÃO DE USER (EDIT, CREATE)
+            TELA DE EDIÇÃO DE USER (EDIT, UPDATE)
 
 item:
 
@@ -62,7 +69,7 @@ item:
     TELA DE DETALHES (SHOW)
     TELA DE ITENS (INDEX)
     TELA DE CADASTRO DE ITEM (NEW, CREATE)
-    TELA DE EDIÇÃO DE ITEM (EDIT, CREATE)
+    TELA DE EDIÇÃO DE ITEM (EDIT, UPDATE)
 
 lot:
 
@@ -85,7 +92,7 @@ lot:
     TELA DE DETALHES (SHOW)
     TELA DE LOTES (INDEX)
     TELA DE CADASTRO DE LOTE (NEW, CREATE)
-    TELA DE EDIÇÃO DE LOTE (EDIT, CREATE)
+    TELA DE EDIÇÃO DE LOTE (EDIT, UPDATE)
 
 bid:
 
@@ -99,5 +106,5 @@ bid:
 
     TELA DE DETALHES (SHOW)
     TELA DE CADASTRO DE LANCE (NEW, CREATE)
-    TELA DE EDIÇÃO DE LANCE (EDIT, CREATE)
+    TELA DE EDIÇÃO DE LANCE (EDIT, UPDATE)
 
